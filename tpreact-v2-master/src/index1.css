@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+}
+
+body {
+background: rgb(#ffffff);
+
+}
+
+.MainDiv {
+    display: flex;
+    justify-content: space-between; 
+    flex-direction: row; 
+}
+.MainDiv ul {
+    flex: 1; /* Hace que los elementos ocupen un espacio igual en la fila */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+   
+    
+}
+.MainDiv ul li a{
+   text-decoration: none;
+}
+.ListaPost {
+    font-size: 100px;
+    font-family: sans-serif;
+}
+.NewPost {
+    text-decoration: none;
+   font-family: sans-serif; 
+   font-size: 20px;
+   color: rgb(grey);
+   border-radius: 10px;
+}
+.NewPost:hover {
+    font-size: 25px;
+    border-radius: 5px;
+    color: rgb(black);
+    transform: transition;
+    transition: all 0.2s;
+    border-radius: 20px;
+}
+.Post1 {
+    margin-top: 5%;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    border-radius: 10%;
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    margin-right: 30px;
+    display: flex; /* Añade display: flex; para controlar la disposición */
+    flex-direction: column; /* Asegura que los elementos estén apilados verticalmente */
+  }
+
+.Post1:hover {
+    margin-top: 5%;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+    min-height: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    margin-right: 30px;
+    transform: transition;
+    transition: all 0.2s;
+}
+.TituloPost {
+    font-size: 30px;
+}
+.AutorPost{
+    font-size: 20px;
+}
+.ContenidoPost{
+    font-size: 20px;
+}
+.DetailsPost {
+    color: whitesmoke;
+}
+.NewPostMain {
+    text-align: center;
+}
+.NewPostTittle {
+    font-size: 80px;
+    font-family: sans-serif;
+}
+.FormPost {
+    margin-top: 1%;
+}
+.Form1 input {
+    border-radius: 7px;
+    margin-top: 25px;
+}
+.Form1 textarea {
+    border-radius: 7px;
+    margin-top: 25px;
+}
+.Form2 {
+    width: 300px;
+    height: 25px;
+}
+.Form2:hover {
+    height: 50px;
+    transform: transition 1s;
+    transition: all 0.5s;
+}
+.Form3 {
+    width: 300px;
+    height: 75px;
+}
+.Form3:hover {
+    height: 100px;
+    transform: transition 1s;
+    transition: all 0.5s;
+}
+.SavePostButton {
+    border-radius: 7px;
+    margin-top: 20px;
+}
+.SavePostButton:hover {
+    transform: transition 1s;
+    transition: all 0.5s;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    font-family: sans-serif;
+}
+.BackHomeButton {
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+.BackHomeButton:hover {
+    background-color: rgb(255, 166, 0);
+    color: white;
+    transform: transition;
+    transition: all 1.5s;
+}
+.PostDetails1 {
+    text-align: center;
+    width: 75%;
+    margin-left: 10%;
+
+}
+.PostDetailsTittle{
+    font-size: 100px;
+    font-family: sans-serif;
+}
+.PostDetailsPostTittle{
+    font-size: 75px;
+    font-family: sans-serif;
+}
+.PostDetailsAuthor{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.Comentarios {
+    text-align: center;
+    justify-content: center;
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.Form4:hover {
+     height: 50px;
+     transform: transition 1s;
+     transition: all 0.5s;
+    
+}
+.BackToHome1 {
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    font-family: sans-serif;
+     background-color: aliceblue;
+    margin-top: 20px;
+}
+.BackToHome1:hover {
+    background-color: rgb(94, 93, 91);
+    color: white;
+    transform: transition;
+    transition: all 1.5s;
+}
+.ComentariosSubmit {
+    list-style: none;
+    font-family: sans-serif;
+    margin-top: 5%;
+}
+
+.ComentariosSubmited {
+    margin-top: 20px;
+    text-decoration: underline 2px solid black;
+    font-size: 20px;
+    
+}
